@@ -1,6 +1,5 @@
 {
   "name": "play video in gmail",
-  "description": "Pithy description (132 characters or less, no HTML)",
   "version": "1.0.0.0",
   "manifest_version": 3,
   "icons": {
