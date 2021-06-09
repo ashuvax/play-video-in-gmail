@@ -1,0 +1,18 @@
+{
+  "name": "play video in gmail",
+  "description": "Pithy description (132 characters or less, no HTML)",
+  "version": "1.0.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+  {
+    "matches": ["https://mail.google.com/mail/u/*"],
+    "js": ["Add a symbol.js"]
+  }
+]
+}
